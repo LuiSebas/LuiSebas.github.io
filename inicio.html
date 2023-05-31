@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: #4CAF50;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;
+        
+    }
+    .letra{
+        text-align: center;
+        color: green;
+        font-size: 30px;
+    }
+    .subtitulo{
+        text-align: center;
+        color: navy;
+        font-size: 25px;
+    }
+    .texto{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+       width: 400px;
+       margin: auto;
+       border: 1px solid black;
+       padding: 50px;
+       margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Inicio" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Volver a la pagina principal</a></li>
+    </ul>
+  </nav>
+  <section>
+    <p><h1 class="letra">Colegio de Bachilleres del estado de Chihuahua Plantel 5</h1></p>
+    <p><h1 class="letra">"Apaches"</h1></p>
+    <p></p>
+    <p><h1 class="subtitulo">¿Qui&eacute;nes somos?</p>
+        <p><img src="https://apps2018.cobachih.edu.mx/assets/images/planteles/pl5.png" width="300px" height="280px"></p>
+        <p class="texto">Inició en 1982, provisionalmente en la Escuela Primaria 21 de Marzo en Ave. Valle de Juárez. Posteriormente, 
+            el Colegio terminó sus propias instalaciones, ocupando el nuevo edificio en el Fraccionamiento Villahermosa, 
+            sito en las calles Valentín Fuentes y Pedro Rosales De León. Al no tener suficiente espacio se compartían funciones 
+            en uno de los laboratorios, donde se impartían asesorías de Matemáticas, Física y Química a los alumnos que así las 
+            solicitaban, asimismo, se ofrecían los servicios de biblioteca y orientación. Como un detalle curioso, fueron los 
+            alumnos los que solicitaran el uso del uniforme, mismo que fue escogido por ellos en cuanto a color y forma. En la 
+            actualidad, el desarrollo y crecimiento del plantel es inobjetable, y a diferencia de aquel, que empezó con 7 grupos 
+            en cada turno, hoy entre demanda y oferta, cuenta con la capacidad de admisión para 18 grupos en el primero y segundo 
+            semestres, 13 en el tercero y cuarto, y 12 en el quinto y sexto. Actualmente cuenta con matrícula de 2 mil 
+            300 estudiantes bajo la Dirección del ING. CARLOS ARMENDÁRIZ HERNÁNDEZ.</p>
+  </section>
+  <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>
+
+

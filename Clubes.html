@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clubes</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: #000000;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    .titulo{
+        color: red;
+        text-align: center;
+    }
+    body{
+        background-color: #70f5c2d5;
+    }
+    .textoab{
+        text-align: center;
+        color: navy;
+        font-size: 20px;
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Clubes art&iacute;sticos" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Servicios.html">Volver a "Servicios"</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <p><h1 class="titulo">Clubes art&iacute;sticos con los que cuenta el plantel 5:</h1></p>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://img.freepik.com/vector-gratis/ilustracion-concepto-mariachis_114360-13514.jpg?w=2000" alt="Imagen 1" height="300px" width="300px">
+      <h2>Mariachi "Apache"</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://humanidades.com/wp-content/uploads/2018/10/teatro-5-e1583803340193.jpg" alt="Imagen 2" height="300px" width="500px">
+      <h2>Teatro</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://www.mushi-emd.com/wp-content/uploads/2019/02/clases-baile-moderno-funky-madrid-retiro.jpg" alt="Imagen 3" height="200px" width="400px" >
+      <h2>Baile moderno</h2>
+    </div>
+    <div class="grid-item">
+      <<img src="https://www.imer.mx/rmi/wp-content/uploads/sites/3/2020/05/25de7a_08200336921141a99ec83c1d09c6ddac_mv2.jpg" alt="Imagen 3" height="300px" width="500px" >
+      <h2>Danza folkl&oacute;rica</h2>
+    </div>
+    <div class="grid-item">
+      <<img src="https://www.elheraldodechihuahua.com.mx/incoming/4r7y9m-banda-de-guerra-y-escolta-tecnologico-de-puebla/ALTERNATES/LANDSCAPE_960/Banda%20de%20guerra%20y%20escolta%20Tecnol%C3%B3gico%20de%20Puebla" alt="Imagen 3" height="300px" width="500px" >
+      <h2>Banda de guerra</h2>
+    </div>
+    <div class="grid-item">
+      <<img src="https://www.elsoldesinaloa.com.mx/incoming/5n4plj-cf87c56a-db5a-4268-92ed-80ba2d0a728d.jpg/ALTERNATES/LANDSCAPE_768/cf87c56a-db5a-4268-92ed-80ba2d0a728d.jpg" alt="Imagen 3" height="300px" width="500px" >
+      <h2>Escolta</h2>
+    </div>
+  </div>
+      <div>
+      <p><h3 class="textoab">Si lo tuyo es el arte, puedes inscribirte a cualquiera de los clubes que tiene nuestro plantel.
+      </h3></p>
+      </div>
+  </section>
+  <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grupos deportivos</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: #000000;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    .titulo{
+        color: red;
+        text-align: center;
+    }
+    body{
+        background-color: #70f5c2d5;
+    }
+    .textoab{
+        text-align: center;
+        color: navy;
+        font-size: 20px;
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Grupos deportivos" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Servicios.html">Volver a "Servicios"</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <p><h1 class="titulo">Grupos deportivos con los que cuenta el plantel 5:</h1></p>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://cdn-3.expansion.mx/dims4/default/65b231f/2147483647/strip/true/crop/1200x743+0+0/resize/1200x743!/format/webp/quality/60/?url=https%3A%2F%2Fcherry-brightspot.s3.amazonaws.com%2F98%2F23%2F183594424fc9a30b16ac50551d66%2Fbas-afp01.jpg" alt="Imagen 1" height="300px" width="500px">
+      <h2>Equipo representativo de b&aacute;squetbol</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://imagenes.elpais.com/resizer/PXZUITSh7LFAQXo1xFhJa4-Z97U=/1960x1470/filters:focal(1345x592:1355x602)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/IP5UNMVVAVFW7PC2NPX6MDGHSU.jpg" alt="Imagen 2" height="300px" width="400px">
+      <h2>Equipo representativo de f&uacute;tbol</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://ichd.mx/wp-content/uploads/2022/10/Tochito_NFL-41.jpg" alt="Imagen 3" height="250px" width="400px" >
+      <h2>Equipo de tochito</h2>
+    </div>
+    <div class="grid-item">
+      <<img src="https://as01.epimg.net/juegos_olimpicos/imagenes/2021/05/30/noticias/1622410624_864647_1622410833_noticia_normal.jpg" alt="Imagen 3" height="300px" width="500px" >
+      <h2>Equipo de béisbol</h2>
+    </div>
+  </div>
+      <div>
+      <p><h3 class="textoab">Si te gusta el deporte y quieres participar en alg&uacute;n grupo deportivo puedes unirte, recuerda: "El deporte no construye el car&aacute;cter. Lo revela."
+      </h3></p>
+      </div>
+  </section>
+  <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>

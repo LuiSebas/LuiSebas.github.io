@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laboratorios</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: purple;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    body{
+        background-color: #70f5c2d5;
+    }
+    .texto{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+       width: 400px;
+       margin: auto;
+       border: 1px solid black;
+       padding: 50px;
+       margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Laboratorios" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Servicios.html">Volver a "Servicios"</a></li>
+    </ul>
+  </nav>
+  <section>
+    <p></p>
+    <div class="grid-item">
+      <h2>Laboratorios de nutrición</h2>
+      <img src="https://img.interempresas.net/fotos/2242089.jpeg" alt="Imagen 1" height="300px" width="500px">
+      <p class="texto">Nuestro plantel cuentas con una gran variendad de laboratorios, entre ellos se encuentra el laboratorio de nutrición,
+        en este se llevan a cabo las actividades de la capacitación de nutrición; en el se encuentran todos los materiales
+        que puedas necesitar para realizar tus actividades de aprendizaje y, en general, el laboratorio cuenta con buenas instalaciones
+        para que no tengas alg&uacute;n tipo de problema.</p>
+    </div>
+    <div class="grid-item">
+        <p></p>
+        <h2>Laboratorios de an&aacute;lisis cl&iacute;nicos</h2>
+        <img src="https://www.labdiagnostica.com/wp-content/uploads/2021/05/que-son-los-analisis-clinicos-Blog-de-Laboratorios-Diagnostica-min.jpg" alt="Imagen 1" height="300px" width="400px">
+        <p class="texto">En el se llevan a cabo actividades de la capacitación de laboratorio cl&iacute;nico, as&iacute; como actividades de la
+            materia de biolog&iacute;a y qu&iacute;mica. El laboratorio cuenta con microscopios, probetas, vasos de precipitado, matrazes,
+            tubos de ensayo, y dem&aacute;s materiales, con ellos prodr&aacute;s realizar tus actividades de una manera comoda y sin que 
+            te llegue a faltar algo.</p>
+      </div>
+      <div class="grid-item">
+        <p></p>
+        <h2>Laboratorios de inform&aacute;tica</h2>
+        <img src="https://maktub.eps.ua.es/servicios/laboratorios/planoEPS/informatica/generalp.jpg" alt="Imagen 1" height="300px" width="400px">
+        <p class="texto">El plantel cuenta con dos laboratorios de inform&aacute;tica y con suficientes computadoras para que los alumnos de la 
+            capacitación de tecnolog&iacute;as de la informaci&oacute;n y la comunicaci&oacute;n puedan elaborar sus trabajos sin ninguna complicación,
+            tambi&eacute;n se utilizan para llevar a cabo la materia de inform&aacute;tica los primeros semestres.
+        </p>
+      </div>
+  </section>
+  
+    <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>

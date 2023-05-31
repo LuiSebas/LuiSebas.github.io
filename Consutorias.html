@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consultorias</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: red;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    .texto{
+        text-align: center;
+        color: black;
+        font-size: 15px;
+       width: 400px;
+       margin: auto;
+       border: 1px solid black;
+       padding: 50px;
+       margin-bottom: 20px;
+    }
+    body{
+        background-color: #70f5c2d5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Consultor&iacute;as" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Servicios.html">Volver a "Servicios"</a></li>
+
+    </ul>
+  </nav>
+  <section>
+    <P><h2>Servicio de consultor&iacute;as.</h2></P>
+    <p class="imagen"><img src="https://gestoseducacionespecial.online/wp-content/uploads/2022/11/Necesidades-Educativas-Especiales-NEE-gestos-educacion-especial-barranquilla-centro-de-consultoria.jpg" width="500px" height="300px"></p>
+    <p class="texto">Este servicio sirve para brindarte apoyo y ayuda en los temas que no hayas entendido o estes batallando; se llevan a cabo despues de las clases normales,
+        las consultor&iacute;as pueden ser de cualquier materia, y si tienes cualquier dificultad t&uacute; puedes pedir ayuda para no quedarte con las dudas y llegar a reprobar alguna 
+        materia.
+    </p>
+  </section>
+    <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>

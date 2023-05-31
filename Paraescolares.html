@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paraescolares</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: #000000;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    .titulo{
+        color: red;
+        text-align: center;
+    }
+    body{
+        background-color: rgba(86, 255, 86, 0.363);
+    }
+    .textoab{
+        text-align: center;
+        color: navy;
+        font-size: 20px;
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Paraescolares" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Alumnos.html">Volver a "Alumnos"</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <p><h1 class="titulo">Paraescolares con las que cuenta el plantel 5:</h1></p>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://images.hola.com/imagenes/estar-bien/20220519210096/primeros-auxilios-accidentes-domesticos/1-89-804/botiquin-primeros-auxilios-t.jpg" alt="Imagen 1" height="300px" width="400px">
+      <h2>Primeros auxilios</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://journey.app/blog/wp-content/uploads/2021/12/tochito-1024x576.jpg" alt="Imagen 2" height="300px" width="400px">
+      <h2>F&uacute;tbol bandera</h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://cdn.shopify.com/s/files/1/0269/7514/1963/collections/954e115e2d07a78591d9350e306dfdd5_1350x760.jpg?v=1666027221" alt="Imagen 3" height="200px" width="400px" >
+      <h2>B&aacute;squetbol varonil y principiantes</h2>
+    </div>
+    <div class="grid-item">
+      <<img src="https://www.eleconomista.com.mx/__export/1649384161766/sites/eleconomista/img/2022/04/07/basquetbol-femenil-especial.png_49796366.png" alt="Imagen 3" height="300px" width="300px" >
+      <h2>B&aacute;squetbol femenil</h2>
+    </div>
+    <div class="grid-item">
+        <<img src="https://www.mundopsicologos.com.ar/site/article/46327/36975/bailar-solo-trae-beneficios-a-tu-salud-0_ai1.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Baile</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://multisononline.com/blog/wp-content/uploads/2021/02/disklavier-piano-sistema-1024x508.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Piano</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://totenart.com/noticias/wp-content/uploads/2020/02/oleo-noticias-totenart.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Pintura</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://vidauniversitaria.uc.cl/images/contenidos/5219_canto-intermedio.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Canto</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://concepto.de/wp-content/uploads/2016/04/teatro-1-e1594939448882-800x400.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Teatro</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnAeyzhz2Tdwb2Ya_-NdJkSdc2DNr1hJ_aUw&usqp=CAU" alt="Imagen 3" height="200px" width="350px" >
+        <h2>Atletismo</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIeB43dIiwhIqSnjEB_KvSigw9KG7SwA7eUA&usqp=CAU" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Guitarra principiantes y avanzados</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://www.bloomberglinea.com/resizer/6aLysAqN5WWYg4aGUuvigO-iWL8=/arc-photo-bloomberglinea/arc2-prod/public/RTOM2XKFUVGLFGDDIQZGPB6B5E.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>B&eacute;isbol</h2>
+      </div>
+      <div class="grid-item">
+        <<img src="https://www.atriainnovation.com/wp-content/uploads/2020/09/PORTADA-2-1080x675.jpg" alt="Imagen 3" height="300px" width="400px" >
+        <h2>Rob&oacute;tica</h2>
+      </div>
+        <div class="grid-item">
+            <<img src="https://conceptodefinicion.de/wp-content/uploads/2021/11/voleibol_1.jpg" alt="Imagen 3" height="300px" width="400px" >
+            <h2>Voleibol</h2>
+      </div>
+  </div>
+      <div>
+      <p><h3 class="textoab">Las paraescolares son clases extras que se llevan obligatoriamente hasta segundo semestre. Según tus gustos y 
+        y habilidades podr&aacute;s elegir que paraescolar es la mejor para ti.
+      </h3></p>
+      </div>
+  </section>
+  <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+</body>
+</html>

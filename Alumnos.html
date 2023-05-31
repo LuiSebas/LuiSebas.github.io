@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alumnos</title>
+    </head>
+    <style>
+         header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;  
+    }
+    .texto{
+      color:rgb(0, 204, 255)
+    }
+    </style>
+    <body>
+        <header>
+            <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+            <h1 class="letras-en-movimiento">"Alumnos" Plantel 5</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver a la pagina principal</a></li>
+                <li><a href="MateriasB.html">Materias básicas</a></li>
+                <li><a href="Paraescolares.html">Paraescolares</a></li>  
+                <li><a href="Capacitaciones.html">Capacitaciones para el trabajo</a></li>  
+                <li><a href="Propedeuticas.html">Materias de formaci&oacute;n proped&eacute;utica</a></li>
+                <li><a href="Calendario.html">Calendario escolar</a></li>
+                
+            </ul>
+        </nav>
+        <section>
+          <div class="grid-container">
+            <div class="grid-item">
+              <P><h1 class="texto">Admisiones</h1></P>
+              <iframe src="http://cosfac.sems.gob.mx/web/Guia%20EDIEMS%202023-2024.pdf" alt="Imagen 1" height="350px" width="600px"></iframe>
+            </div>
+            <div class="grid-item">
+              <P><h1 class="texto">Tarifas de inscipciones</h1></P>
+              <img src="https://apps2018.cobachih.edu.mx/assets/images/INSCRIPCIONES2023.JPG" alt="Imagen 1" height="600px" width="400px"></iframe>
+            </div>
+            </div>
+          </section>
+          <section>
+            <div class="grid-container">
+            <div class="grid-item">
+              <p><h1 class="texto">¿Por qu&eacute; elegir el COBACH?</h1></p>
+              <p>Somos una de las instituciones estatales con mayor antigüedad, experiencia y reconocimiento en el ámbito educativo.
+                 Creado por decreto Presidencial el 19 de Septiembre de 1973 bajo la presidencia del Lic. Luis Echeverría Álvarez al 
+                 desaparecer la Antigua Preparatoria de la Universidad Autónoma de Chihuahua, el Colegio de Bachilleres de Chihuahua 
+                 fue el primer COBACH en a nivel nacional ya que empezó sus funciones como tal en Septiembre de 1973, con 3 planteles
+                  en la ciudad de Chihuahua y actualmente se constituye como el más grande subsistema de nivel medio superior en la 
+                  entidad, con 31 centros educativos en las modalidades escolarizada y no escolarizada. Nuestra calidad educativa 
+                  nos distingue</p>
+            </div>
+            <div class="grid-item">
+                <p><h1 class="texto">Modelo educativo</h1></p>
+                <p>Ofrecemos una educación integral sustentada en un modelo constructivista con enfoque por competencias; mediante la obtención 
+                 de conocimientos, incremento de habilidades y fortalecimiento de valores que le permitan a nuestros egresados continuar en el 
+                 nivel superior, desarrollar una vida plena y ser ciudadanos y ciudadanas útiles a la sociedad.</p>
+            </div>
+            </div>
+          </section>
+        
+        <footer id="pie">Derechos Reservados &copy; 2021-2024</footer>
+    </body>
+</html>

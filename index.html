@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plantel 5 - Colegio de Bachilleres</title>
+  <style>
+    .letras{
+        text-align: center;
+        color: red;
+        font-size: 40px;
+    }
+     @keyframes movimiento-letras {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(80px); }
+      100% { transform: translateX(0); }
+    }
+     .letras-en-movimiento {
+      animation: movimiento-letras 4s infinite;
+    }
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2{
+      text-align: center;
+      color: #4CAF50;
+    }
+    
+    header {
+      background-color: rgb(37, 136, 78);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: #070a8a;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul li a:hover{
+        background-color: #86d7;
+        margin-top: -2;
+        padding-bottom: 12px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilos adicionales */
+    .form-container {
+      max-width: 50px;
+      margin: 0 auto;
+    }
+    
+    .form-container label, .form-container input, .form-container textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .form-container button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-container button:hover {
+      background-color: #555;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .grid-item {
+      text-align: center;
+    }
+    #pie{
+    clear:both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+    color: #ffffff;
+    background-color: #000000;     
+    }
+    .imagen{
+      text-align: center;
+    }
+    h3{
+      color:aqua
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://apps2018.cobachih.edu.mx/assets/images/logo_res.png" height="50%" width="20%">
+    <h1 class="letras-en-movimiento">"Apaches" Plantel 5</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="Servicios.html">Servicios</a></li>
+      <li><a href="Alumnos.html">Alumnos</a></li>
+      <li><a href="https://www.gob.mx/becasbenitojuarez">Becas</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <p class="imagen"><img src="https://www.elheraldodejuarez.com.mx/incoming/wqdq3f-regularizacion-cobach.png/ALTERNATES/LANDSCAPE_768/regularizacion%20cobach.png" width="500px" height="300px"></p>
+    <h1 class="letras">&Uacute;ltimas noticias:</h1>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="https://apps2018.cobachih.edu.mx/assets/images/BOTON%20para%20manual%20de%20pago2.jpg" alt="Imagen 1" height="300px" width="400px">
+      <h2><a href="https://apps2018.cobachih.edu.mx/avisos/Manual%20de%20PAGO%20de%20Inscripcion%20COBACH%202023.pdf"> Papeleta de pago (BBVA)</a></h2>
+    </div>
+    <div class="grid-item">
+      <img src="https://apps2018.cobachih.edu.mx/assets/images/DESCARGAGuiaexamen2023.png" alt="Imagen 2" height="300px" width="400px">
+      <h2><a href="http://cosfac.sems.gob.mx/web/Guia%20EDIEMS%202023-2024.pdf">Guía de estudio</a></h2>
+      
+    </div>
+    <div class="grid-item">
+      <img src="https://apps2018.cobachih.edu.mx/assets/images/PROCESODEADMISION2023.jpg" alt="Imagen 3" height="300px" width="400px" >
+      <h2><a href="https://sie.chihuahua.gob.mx/publico/mediasuperior/">Proceso de Admision</a></h2>
+    </div>
+    <div class="grid-item">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54302.276422159186!2d-106.50797235136719!3d31.71883750000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75c052d69b3e3%3A0x64f82dad52855c0c!2sColegio%20de%20Bachilleres%20del%20Estado%20de%20Chihuahua%20Plantel%205!5e0!3m2!1sen!2smx!4v1684950464304!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h2><a href="https://goo.gl/maps/r7BmLSHG2zVwbq1U7?coh=178573&entry=tt">Ubicacion del Plantel</a></h2>
+    </div>
+  </section>
+  
+    <footer id="pie">Derechos Reservados &copy; 2021-2024
+      <p><h3>Contacto</h3></p>
+      <p><span>Correo:</span> coba@micoba.com.mx</p>
+      <p><span>Tel&eacute;fono:</span> (614)238-3000</p>
+      <p><h3>Redes sociales:</h3></p>
+      <p><span>Facebook:</span> Colegio de Bachilleres</p>
+      <p><span>Twitter:</span> @Colegio_Bachilleres</p>
+      <p><span>Instagram:</span> @Colegio_Bachilleres</p>
+    </footer>
+</body>
+</html>
+  
